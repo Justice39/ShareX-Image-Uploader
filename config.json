@@ -1,0 +1,9 @@
+{
+    "uploadKey": "upload_key",
+    "port": 1337,
+    "redis": {
+        "url": "",
+        "port": 63,
+        "password": ""
+    }
+}

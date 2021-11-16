@@ -1,0 +1,13 @@
+{
+  "Version": "13.6.1",
+  "Name": "ShareX-Image-Uploader",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://your_domain/sharex/upload",
+  "Headers": {
+    "password": "upload_key"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "image",
+  "URL":"$json:URL$"
+}
